@@ -22,3 +22,5 @@
 - Thời gian thực hiện: Là mỗi khi người sử dụng muốn xóa bỏ toàn bộ lịch sử hay xem thông tin của ứng dụng.
 - Tác nhân thực hiện: Người sử dụng hệ thống.
 **Hỗ trợ Android: 8+**
+
+Download: https://github.com/TanNhatCMS/TraTuDien/releases/download/v1.0/TraTuDien.v1.0-1.apk
