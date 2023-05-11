@@ -37,7 +37,7 @@ public class SettingActivity extends AppCompatActivity {
             db.ExecuteSQL("DELETE FROM LichSuTest");
             Toast.makeText(SettingActivity.this, "Xóa Thành công", Toast.LENGTH_SHORT).show();
         });
-        String s = "\n"+"\nPhiên Bản: 1.0"+"\n"+"Viết Bởi Nguyễn Tuấn Kiệt"+"\n"+"https://github.com/TanNhatCMS"+"\n"+"https://tannhatcms.xyz";
+        String s = "\n"+"\nPhiên Bản: 1.0"+"\n"+"Viết Bởi Nguyễn Tuấn Kiệt"+"\n"+"https://github.com/TanNhatCMS/TraTuDien/"+"\n"+"https://tannhatcms.xyz";
         tvthongtin.setText(s);
     }
 }

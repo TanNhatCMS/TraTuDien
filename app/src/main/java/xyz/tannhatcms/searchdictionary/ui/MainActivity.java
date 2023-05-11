@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     DataBase db = new DataBase(this);
     ArrayList<String> ar = null;
     String[] item = {"Tra Từ Điển Anh-Việt", "Ngữ Pháp","Luyện Tập",  "Lịch sử Luyện Tập", "Cài Đặt"};
-    Integer[] icon = {R.drawable.timkiem,  R.drawable.book2,R.drawable.tets, R.drawable.ghi_chu, R.drawable.icon1};
+    Integer[] icon = {R.drawable.timkiem,  R.drawable.book2,R.drawable.tets, R.drawable.ghi_chu, R.drawable.settings};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

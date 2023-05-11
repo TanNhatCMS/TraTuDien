@@ -29,11 +29,13 @@
         android:background="#ffffff"/>
 
     </LinearLayout>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="10pt"
-        android:text="Thông tin ứng dụng" />
+        android:text="Thông tin ứng dụng"
+        android:textSize="10pt" />
+
     <TextView
         android:id="@+id/tvThongtin"
         android:layout_width="match_parent"
