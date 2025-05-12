@@ -6,15 +6,14 @@ plugins {
 android {
     namespace 'xyz.tannhatcms.searchdictionary'
     //noinspection GradleCompatible
-    compileSdk 33
+    compileSdk 35
     defaultConfig {
         applicationId "xyz.tannhatcms.searchdictionary"
         minSdk 26
-        targetSdk 33
+        targetSdk 35
         versionCode 1
         versionName "1.0"
         minSdkVersion 26
-        targetSdk 33
         //noinspection OldTargetApi
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
@@ -48,14 +47,14 @@ android {
         abortOnError false
         checkReleaseBuilds false
     }
-    buildToolsVersion '33.0.0'
+    buildToolsVersion '35.0.0'
 }
 
 dependencies {
-    implementation group: 'androidx.annotation', name: 'annotation', version: '1.7.0-alpha02'
-    implementation 'com.google.android.material:material:1.9.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation group: 'androidx.annotation', name: 'annotation', version: '1.9.1'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.1'
     testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
 }
