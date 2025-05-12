@@ -16,7 +16,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
-;import xyz.tannhatcms.searchdictionary.R;
 import xyz.tannhatcms.searchdictionary.model.Note;
 
 /**
